@@ -26,7 +26,7 @@
     font-size: 14px;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #5eaaf1;
     }
   }
 
@@ -36,7 +36,7 @@
     font-size: 23px;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #5eaaf1;
     }
   }
 }
@@ -47,7 +47,7 @@
     font-size: 30px;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #5eaaf1;
     }
   }
 }
