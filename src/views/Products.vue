@@ -2,12 +2,11 @@
 
 <a>Products List</a>
   <div class="row flex-row flex-nowrap overflow-auto">
-    <div class="col-4" v-for="idea in ideas" v-bind:key="idea">
+    
         <div class="card card-block h-100" >
-          <img class = "logo" src = idea>
-            {{idea}}
+          <img class = "logo" src = "@/assets/hakadori.png">
+          <p>ハカドリくん</p>
         </div>
-    </div>
 </div>
 </template>
 
@@ -20,7 +19,6 @@ export default {
   data: () => ({
     windowWidth: window.innerWidth,
     windowHeight: window.innerHeight,
-    ideas:["@/assets/hakadori.png"]
   }),
   methods: {
     getWindowSize: function () {
@@ -41,6 +39,7 @@ export default {
 }
 
 .logo{
-  width:40%
+  width:30%;
+  padding: 5%;
 }
 </style>
