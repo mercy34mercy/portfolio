@@ -27,6 +27,12 @@
   </div>
   </div> 
 
+  <Adsense
+    data-ad-client="ca-pub-8270225967881362"
+    crossorigin="anonymous">
+</Adsense>
+
+
 
 </template>
 

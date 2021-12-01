@@ -8516,6 +8516,11 @@ vue-functional-data-merge@^3.1.0:
   resolved "https://registry.yarnpkg.com/vue-functional-data-merge/-/vue-functional-data-merge-3.1.0.tgz#08a7797583b7f35680587f8a1d51d729aa1dc657"
   integrity sha512-leT4kdJVQyeZNY1kmnS1xiUlQ9z1B/kdBFCILIjYYQDqZgLqCLa0UhjSSeRX6c3mUe6U5qYeM8LrEqkHJ1B4LA==
 
+vue-google-adsense@^1.10.1:
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/vue-google-adsense/-/vue-google-adsense-1.10.1.tgz#807fd3e5a0dfd8b1b92e058e5c036d1f50b14ac6"
+  integrity sha512-F8S6TGK4kyDDvBy7plnWkclz/2bnJNLM2GgPn2K0bzxZi5p5/Nul+NHAkUkXpwdI/eoy+M7ibnkOMhvgd7T9rw==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -8547,6 +8552,11 @@ vue-router@^4.0.0-0:
   integrity sha512-sha6I8fx9HWtvTrFZfxZkiQQBpqSeT+UCwauYjkdOQYRvwsGwimlQQE2ayqUwuuXGzquFpCPoXzYKWlzL4OuXg==
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.14"
+
+vue-script2@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vue-script2/-/vue-script2-2.1.0.tgz#8e480dc6052c8cdf2aa0ec112efc80f31ddc3522"
+  integrity sha512-EDUOjQBFvhkJXwmWuUR9ijlF7/4JtmvjXSKaHSa/LNTMy9ltjgKgYB68aqlxgq8ORdSxowd5eo24P1syjZJnBA==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"
