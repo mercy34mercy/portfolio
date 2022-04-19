@@ -72,6 +72,7 @@ export default {
   padding: 5%;
 }
 
+
 .row {
   height: 50%;
 }
