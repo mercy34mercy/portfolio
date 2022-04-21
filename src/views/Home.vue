@@ -2,8 +2,8 @@
   <div class="home"></div>
   <div class="container">
   <div class="row row row-cols-2">
-    <div class="col-10">
-      <img class="myphoto img-fluid" src="@/assets/me.jpg" alt="..." />
+    <div class="col-10 img-wrap">
+      <img class="myphoto img-fluid"  src="@/assets/me.jpg" alt="..." />
     </div>
     <div class="col-2">
       <p class = "vertical" style="text-align:center;">Masashi &nbsp;&nbsp;Kobayashi</p>
@@ -113,6 +113,30 @@ export default {
 	-ms-writing-mode: tb-rl;
 	writing-mode: vertical-rl;
   margin-left: 10%;
+}
+
+.img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-wrap:before {
+  animation: img-wrap 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@keyframes img-wrap {
+  100% {
+    transform: translateX(-100%);
+  }
 }
 </style>
 

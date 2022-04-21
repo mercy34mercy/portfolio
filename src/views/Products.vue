@@ -117,4 +117,6 @@ export default {
 .row_ {
   height: 50%;
 }
+
+
 </style>
