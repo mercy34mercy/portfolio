@@ -93,7 +93,7 @@ export default {
 .logo {
   height: 10em;
   padding: 5%;
-  max-width: 12em;
+  max-width: 10em;
 }
 
 .logogit{
